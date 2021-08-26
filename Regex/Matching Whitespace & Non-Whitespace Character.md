@@ -5,6 +5,7 @@
 ## 문제 풀이
 
 - 공백 구분 → `\s`
+- `\S` 는 공백이 아닌 모든 문자와 일치합니다.
 
 ## 내가 짠 코드
 
@@ -12,7 +13,7 @@
 // 입력
 // 12 11 15
 
-var Regex_Pattern = /\s/;
+var Regex_Pattern = /\S{2}\s\S{2}\s\S{2}/;
 
 function processData(Test_String) {
   //Enter your code here
